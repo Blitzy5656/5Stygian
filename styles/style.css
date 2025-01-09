@@ -1,5 +1,10 @@
-.container .row h1 {
+body {
+  background-color: rgb(28, 28, 28);
+}
+
+.container .content .mainHeader {
   color: #1b5583;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
