@@ -5,7 +5,8 @@ function getRndInteger(min, max) {
 }
 
 function theReminder() {
-    lossChecker = getRngInteger(0,2)
+    getRngInteger(0, 2);
+    lossChecker = getRngInteger();
     if (lossChecker = 555555) {
         window.alert("You lost the game!");
     }
