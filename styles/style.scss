@@ -1,7 +1,14 @@
+$colorBlueFav: #1b5583;  // my favorite color
+$colorSCPRed: #bb0011;   // scp foundation red
+
+body {
+    background-color: rgb(28,28,28);
+}
+
 .container {
-    .row {
-        h1 {
-            color: #1b5583;
+    .content {
+        .mainHeader {
+            color: $colorBlueFav;
         }
     }
 }
