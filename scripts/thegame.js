@@ -1,4 +1,4 @@
-lossChecker = 0
+lossChecker = 0;
 
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
