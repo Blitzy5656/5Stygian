@@ -1,12 +1,11 @@
-lossChecker = 0;
+let lossChecker = 0;
 
-function getRndInteger(min, max) {
-  return Math.floor(Math.random() * (max - min)) + min;
+function getRndInteger() {
+  return Math.abs(Math.floor(Math.random() * 1000000));
 }
 
 function theReminder() {
-    return getRngInteger(0, 2);
-    lossChecker = getRngInteger();
+    let lossChecker = lossChecker + getRndInteger();
     if (lossChecker = 1) {
         window.alert("You lost the game!");
     }
