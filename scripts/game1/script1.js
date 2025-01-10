@@ -5,6 +5,5 @@ function sleep(ms) {
 }
 
 while (points < 5) {
-    document.getElementById("pointCounter").innerHTML = points;
     points++;
 }
