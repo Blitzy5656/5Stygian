@@ -35,5 +35,23 @@ body {
         .mainHeader {
             font-family: $fontBold;
         }
+        .noShow {
+            display: none;
+        }
     }
+}
+
+table {
+    tr {
+        th,
+        td {
+            font-family: $fontAlt;
+            background-color: rgba(16,16,16,0.6);
+            box-shadow: -5px 0px 5px 2px rgba(16,16,16,0.2), 5px 0px 5px 2px rgba(16,16,16,0.2), 0px 5px 5px 2px rgba(16,16,16,0.2), 0px -5px 5px 2px rgba(16,16,16,0.2);
+        }
+    }
+}
+
+a {
+    // sigma
 }
