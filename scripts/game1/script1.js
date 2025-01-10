@@ -5,6 +5,5 @@ function sleep(ms) {
 }
 
 function click() {
-    points++;
-    document.getElementById("pointCounter").innerHTML = points;
+    document.getElementById("pointCounter").innerHTML = points + 1;
 }
