@@ -1,12 +1,11 @@
-let lossChecker = 0;
-
 function getRndInteger() {
-  return Math.abs(Math.floor(Math.random() * 1000000));
+  return Math.floor(Math.random() * 1000000); // Generates 0-1 million
 }
 
 function theReminder() {
-    let lossChecker = lossChecker + getRndInteger();
-    if (lossChecker = 1) {
-        window.alert("You lost the game!");
-    }
+  if (getRndInteger() === 0) { // 1/1000000 chance
+    window.alert("You lost the game!\nThis is a 1 in 1 million chance\nCheck /scripts/thegame.js for confirmation");
+  }
 }
+
+theReminder(); // Call the function when the website loads

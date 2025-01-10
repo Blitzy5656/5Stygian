@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "Importable SASS/normalize.scss";
 // fonts
 $fontNormal: Rubik;
 $fontMono: Ubuntu Mono; 
@@ -6,20 +7,32 @@ $fontBold: Rubik Mono One;
 $fontAlt: Reddit Sans;
 $fontMonoAlt: Reddit Mono;
 // colors
-$colorBlueFav: #1b5583;  // my favorite color
-$colorSCPRed: #bb0011;   // scp foundation red
+$colorNormalWhite: rgb(215,215,215); // a slightly grayer white to lessen contrast between the background and the text
+$colorBlueFav: #1b5583;              // my favorite color
+$colorSCPRed: #bb0011;               // scp foundation red
 
 body {
-    background-color: rgb(28,28,28);
+    background-color: rgb(36,36,36);
 }
 
 .container {
+    // these styles are definitly not taken from somewhere else
+    color: $colorNormalWhite;
+    background-color: rgba(28,28,28,0.75);
+    box-shadow: -5px 0px 5px 2px rgba(28,28,28,0.2), 5px 0px 5px 2px rgba(28,28,28,0.2);
+    margin: auto;
+    padding: 16px 12px 16px 12px;
+    width: 55.555%;
+    height: 100%;
     .content {
         p {
             font-family: $fontNormal;
+            font-size: 16px;
+        }
+        alt {
+            font-family: $fontAlt;
         }
         .mainHeader {
-            color: $colorBlueFav;
             font-family: $fontBold;
         }
     }
