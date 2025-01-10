@@ -4,6 +4,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-while (points < 5) {
+function click() {
     points++;
+    document.getElementById("pointCounter") = points;
 }
