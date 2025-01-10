@@ -1,3 +1,4 @@
+/*
 let points = 0;
 
 function sleep(ms) {
