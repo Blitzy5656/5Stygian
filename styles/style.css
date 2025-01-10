@@ -1,10 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 body {
   background-color: rgb(28, 28, 28);
 }
 
+.container .content p {
+  font-family: Rubik;
+}
 .container .content .mainHeader {
   color: #1b5583;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Rubik Mono One;
 }
 
 /*# sourceMappingURL=style.css.map */
